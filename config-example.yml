@@ -1,0 +1,10 @@
+development:
+  store: storelink1.myshopify.com
+  password: 9c66b9afc2503fddd8d3f4b7743caa9d
+  themeid: "8721432619"
+  bucket_size: 40
+  refill_rate: 2
+  ignore_files:
+    - "*.swp"
+    - "*~"
+    - "config/settings_data.json"

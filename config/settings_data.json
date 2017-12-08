@@ -1,0 +1,600 @@
+{
+  "current": {
+    "color_primary": "#000000",
+    "color_secondary": "#f3f3f3",
+    "color_accent": "#545454",
+    "color_body_bg": "#f3f3f3",
+    "color_borders": "#dedede",
+    "product_reviews_star_color": "#e5c649",
+    "color_header_background": "#ffffff",
+    "color_header_text": "#545454",
+    "color_header_cart_search": "#f3f3f3",
+    "color_nav_bg": "#ffffff",
+    "color_nav_text": "#000000",
+    "color_body_text": "#858585",
+    "color_heading_text": "#2f2f2f",
+    "color_footer_bg": "#ffffff",
+    "color_footer_text": "#545454",
+    "color_footer_social_link": "#545454",
+    "type_base_family": "Google_Roboto_400,700_sans",
+    "type_base_size": "14px",
+    "type_header_family": "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
+    "type_header_transform": false,
+    "type_accent_family": "Google_Lato_700_sans",
+    "type_navigation_size": "14px",
+    "type_navigation_transform": true,
+    "type_button_size": "14px",
+    "type_button_transform": true,
+    "favicon": "",
+    "cart_notes_enable": true,
+    "ajax_cart_method": "modal",
+    "share_image": "",
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_google_plus_link": "",
+    "social_instagram_link": "",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "social_sharing_style": "is-normal",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "superscript_decimals": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#1990c6",
+    "checkout_button_color": "#1990c6",
+    "checkout_error_color": "#ff6d6d",
+    "collection_sidebar_filters": "tags",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu": "main-menu",
+          "logo": "shopify:\/\/shop_images\/linksture.png",
+          "logo_max_width": "169",
+          "show_announcement": false,
+          "announcement_text": "This is a demo store. Any orders placed through this store will not be honored or fulfilled.",
+          "announcement_link": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "width": "33%"
+            }
+          },
+          "1512725797585": {
+            "type": "menu",
+            "settings": {
+              "title": "More Info:",
+              "menu": "footer",
+              "width": "16%"
+            }
+          },
+          "1512726336931": {
+            "type": "menu",
+            "settings": {
+              "title": "Contact:",
+              "menu": "footer-contact",
+              "width": "16%"
+            }
+          },
+          "1512726397869": {
+            "type": "menu",
+            "settings": {
+              "title": "Find Us:",
+              "menu": "footer-find-us",
+              "width": "16%"
+            }
+          }
+        },
+        "block_order": [
+          "1512725797585",
+          "1512726336931",
+          "1512726397869",
+          "newsletter"
+        ],
+        "settings": {
+          "social_enabled": false,
+          "legal_menu": ""
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-0": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/b2.jpg",
+              "link": ""
+            }
+          },
+          "1512551883938": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/b1.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slide-0",
+          "1512551883938"
+        ],
+        "settings": {
+          "slider_home_auto": true,
+          "slider_home_rate": "5000"
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-list-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "jewellery"
+            }
+          },
+          "collection-list-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "designers"
+            }
+          }
+        },
+        "block_order": [
+          "collection-list-0",
+          "collection-list-1"
+        ],
+        "settings": {}
+      },
+      "collection-row-1": {
+        "type": "collection-rows",
+        "settings": {
+          "title": "Featured collection",
+          "home_featured_row": "best-selling-products",
+          "grid": 4,
+          "rows": 1,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false
+        }
+      },
+      "featured-content": {
+        "type": "featured-content",
+        "settings": {
+          "section_title": "Talk about your brand",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text_size": "medium"
+        }
+      },
+      "slideshow-2": {
+        "type": "slideshow",
+        "blocks": {
+          "slideshow-2-0": {
+            "type": "image",
+            "settings": {
+              "slide": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slideshow-2-0"
+        ],
+        "settings": {
+          "slider_home_auto": false,
+          "slider_home_rate": "5000"
+        }
+      },
+      "1512725282089": {
+        "type": "collection-list",
+        "blocks": {
+          "1512725282089-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "jewellery"
+            }
+          },
+          "1512725282089-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "designers"
+            }
+          }
+        },
+        "block_order": [
+          "1512725282089-0",
+          "1512725282089-1"
+        ],
+        "settings": {}
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "collection-list",
+      "1512725282089",
+      "collection-row-1",
+      "slideshow-2",
+      "featured-content"
+    ]
+  },
+  "presets": {
+    "Blue": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#dd2525",
+      "color_body_bg": "#fff",
+      "color_body_text": "#585858",
+      "color_borders": "#ececec",
+      "color_footer_bg": "#f2f2f2",
+      "color_footer_social_link": "#bbbbbb",
+      "color_footer_text": "#636363",
+      "color_header_background": "#182e49",
+      "color_header_cart_search": "#0f243d",
+      "color_header_text": "#fff",
+      "color_heading_text": "#000",
+      "color_nav_bg": "#182e49",
+      "color_nav_text": "#fff",
+      "color_primary": "#528ec1",
+      "color_secondary": "#dcdcdc",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_fancy_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_pinterest_link": "",
+      "social_sharing_style": "is-normal",
+      "social_snapchat_link": "",
+      "social_tumblr_link": "",
+      "social_twitter_link": "",
+      "social_vimeo_link": "",
+      "social_youtube_link": "",
+      "type_accent_family": "Google_Montserrat_400_sans",
+      "type_base_family": "Google_Montserrat_400,700_sans",
+      "type_base_size": "13px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_family": "Google_Montserrat_700_sans",
+      "type_header_transform": true,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-2": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3"
+      ]
+    },
+    "Light": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#545454",
+      "color_body_bg": "#f3f3f3",
+      "color_body_text": "#858585",
+      "color_borders": "#dedede",
+      "color_footer_bg": "#ffffff",
+      "color_footer_social_link": "#545454",
+      "color_footer_text": "#545454",
+      "color_header_background": "#ffffff",
+      "color_header_cart_search": "#f3f3f3",
+      "color_header_text": "#545454",
+      "color_heading_text": "#2f2f2f",
+      "color_nav_bg": "#9c756f",
+      "color_nav_text": "#ffffff",
+      "color_primary": "#9c756f",
+      "color_secondary": "#f3f3f3",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_sharing_style": "is-normal",
+      "social_twitter_link": "",
+      "type_accent_family": "Google_Lato_700_sans",
+      "type_base_family": "Google_Roboto_400,700_sans",
+      "type_base_size": "14px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_family": "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
+      "type_header_transform": false,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "slideshow-2": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-2-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-2-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3",
+        "slideshow-2",
+        "featured-content"
+      ]
+    }
+  }
+}
