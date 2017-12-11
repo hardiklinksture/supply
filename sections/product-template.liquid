@@ -22,7 +22,7 @@
   <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
   <meta itemprop="image" content="{{ product.featured_image.src | img_url: 'grande' }}">
 
-  <div class="grid-item large--two-fifths">
+  <div class="grid-item large--three-fifths">
     <div class="grid">
       <div class="grid-item large--eleven-twelfths text-center">
         <div class="product-photo-container" id="productPhotoContainer-{{ section.id }}">
@@ -35,7 +35,7 @@
               {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                 <img id="{{ img_id }}"
                   {% if forloop.first == true %}
-                  src="{{ featured_image | img_url: '300x300' }}"
+                  src="{{ featured_image | img_url: '540x540' }}"
                   {% endif %}
                   class="lazyload no-js lazypreload"
                   data-src="{{ img_url }}"
@@ -73,7 +73,7 @@
     </div>
   </div>
 
-  <div class="grid-item large--three-fifths">
+  <div class="grid-item large--two-fifths">
 
     <h1 class="h2" itemprop="name">{{ product.title }}</h1>
 
@@ -90,9 +90,17 @@
 
       <ul class="inline-list product-meta">
         <li>
+        {% comment %}
           <span id="productPrice-{{ section.id }}" class="h1">
             {% include 'price' with variant.price %}
           </span>
+          {% endcomment %}
+          {% if product.compare_at_price %}
+            {{ product.compare_at_price | money_with_currency }}
+            Now {{ product.price | money_with_currency }}
+          {% else %}
+            {{ product.price | money_with_currency }}
+          {% endif %}
         </li>
         {% if product.compare_at_price_max > product.price and section.settings.product_show_saved_amount %}
         <li>
