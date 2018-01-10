@@ -1,2 +1,3 @@
 # supply
-i upload free them just fot testong on github.
+i upload shopify free them supply.
+just fot testong on github.
